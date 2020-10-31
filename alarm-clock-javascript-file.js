@@ -8,14 +8,13 @@ var startstop = document.getElementById('startstop');
 var currentTime;
 var alarmTime;
 var activeColumn = false;
-var sound = new Audio('alarm.mp3');
+var sound = new Audio("alarm.mp3");
 sound.loop = true;
 
 function showTime() {
-    while (true) {
     var now = new Date();
     currentTime = now.toLocaleTimeString();
     timer.textContent = currentTime;
-    }
+    setTimeout(showTime, 1000);
 }
 showTime();
