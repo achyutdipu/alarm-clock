@@ -1,0 +1,17 @@
+body {
+    background: solid cornflowerblue;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Gotham Rounded';
+    font-size: 10%;
+    color: solid coral;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 100vmax;
+    color: solid cornflowerblue;
+}
